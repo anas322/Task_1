@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+header
+{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(person.jpg);
+    background-size:cover ;
+    background-position: center;
+    height: 100vh ;
+}
+ul{
+    list-style-type: none;
+    float: right;
+    margin-top: 20px;
+}
+ul li{
+    display: inline-block;
+}
+ul li a {
+    text-decoration:none;
+    color : #fff ;
+    padding :5px 20px ;
+    border : 1px solid #fff transparent ;
+    transition: 1s ease ;
+    font: bold;
+    font-size: 20px;
+
+
+}
+ul li.active a{
+    background-color:whitesmoke ;
+    color: black;
+}
+ul li a:hover{
+    background-color:#fff;
+    color: black;
+
+}
+.main{
+    max-width: 1400px;
+    margin: auto;
+}
+.title{
+    position: absolute;
+    top: 50%;
+    left : 50%;
+    transform: translate(-50%,-50%);
+}
+.title h1{
+    color: white;
+    font-size: 90px;
+}
+.button{
+    position: absolute;
+    top: 85%;
+    left : 50%;
+    transform: translate(-50%,-50%);
+}
+ .butn {
+     border : 1px solid white;
+     padding : 10px 30px;
+     color : white;
+     text-decoration: none;
+     transition: 2s ease ;
+
+}
+.butn:hover{
+    background-color:#fff;
+    color: black;
+   
+}
