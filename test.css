@@ -1,0 +1,63 @@
+*{padding: 0px;
+margin: 0px;
+}
+
+header{
+    background-image:url(woman.jpg) ;
+    background-size:cover ;
+    background-position: center;
+    height: 100vh;
+}
+ul{
+    list-style-type:none;
+    float: right; 
+    margin-top:20px ;   
+}
+ul li{
+    display: inline-block;
+    font-size: 30px;   
+}
+ul li a {
+    padding: 5px 20px;
+    text-decoration: none;
+    border:1px solid #fff transparent;
+    color: black;
+    transition: 1s ease ;
+    font-style: italic;
+}
+ul li:hover a{
+background-color: white ;
+color: tomato;
+}
+.heading{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+h1{
+    font-size: 100px;
+    color : white;
+    transition: 1s ease;
+}
+.bo{
+    position: absolute;
+    top: 70%;
+    left : 50%;
+    transform: translate(-50%,-50%);
+
+}
+.hey:hover{
+    background-color: white;
+    color: black;
+}
+.hey{
+    
+    text-decoration: none;
+    padding: 10px 30px;
+    transition: 1s ease;
+    color: white;
+    border: 1px 1px 5px 5px solid white;
+}
+
